@@ -6,7 +6,9 @@ import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
+
+  //Tenta nos ajudar a previnir certos tipos de erros. Pra conseguir tratar se existe esse erro ou não, renderiza o componente duas vezes (as vezes) pra poder validar o que estamos fazendo
+  <React.StrictMode>  
     <App />
   </React.StrictMode>
 );
